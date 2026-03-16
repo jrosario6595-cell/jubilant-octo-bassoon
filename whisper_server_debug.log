@@ -1,0 +1,540 @@
+whisper_init_from_file_with_params_no_state: loading model from '/mnt/core_agency/models/stt/ggml-base.en.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 15655 MiB):
+  Device 0: Orin, compute capability 8.7, VMM: yes, VRAM: 15655 MiB (9477 MiB free)
+whisper_init_with_params_no_state: devices    = 2
+whisper_init_with_params_no_state: backends   = 2
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51864
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 512
+whisper_model_load: n_audio_head  = 8
+whisper_model_load: n_audio_layer = 6
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 512
+whisper_model_load: n_text_head   = 8
+whisper_model_load: n_text_layer  = 6
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 2 (base)
+whisper_model_load: adding 1607 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:        CUDA0 total size =   147.37 MB
+whisper_model_load: model size    =  147.37 MB
+whisper_backend_init_gpu: device 0: CUDA0 (type: 1)
+whisper_backend_init_gpu: found GPU device 0: CUDA0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using CUDA0 backend
+whisper_init_state: kv self size  =    6.29 MB
+whisper_init_state: kv cross size =   18.87 MB
+whisper_init_state: kv pad  size  =    3.15 MB
+whisper_init_state: compute buffer (conv)   =   17.24 MB
+whisper_init_state: compute buffer (encode) =   23.09 MB
+whisper_init_state: compute buffer (cross)  =    4.66 MB
+whisper_init_state: compute buffer (decode) =   97.29 MB
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpys_h7nhe.wav' (47183 samples, 2.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpnj5ltveo.wav' (58329 samples, 3.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpw4ce34qk.wav' (131146 samples, 8.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpnregyb38.wav' (42353 samples, 2.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpz9jn9kbn.wav' (25263 samples, 1.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpfh1gsv1v.wav' (66874 samples, 4.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpwlvrrc9s.wav' (73561 samples, 4.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp3qnb8mnp.wav' (161611 samples, 10.1 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpbu7lk6r5.wav' (50155 samples, 3.1 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpmxofgas2.wav' (82106 samples, 5.1 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpxyscdx59.wav' (40124 samples, 2.5 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpwtgw6tn5.wav' (208051 samples, 13.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp1_6rqqx7.wav' (27864 samples, 1.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp7qqyhz0y.wav' (22663 samples, 1.4 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpegcjeizj.wav' (38638 samples, 2.4 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpsth50xu6.wav' (206936 samples, 12.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp01vgvp3k.wav' (74676 samples, 4.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmplkaj7z0u.wav' (247803 samples, 15.5 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp25shbpru.wav' (42725 samples, 2.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp23hso4s3.wav' (95481 samples, 6.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmprawvchc6.wav' (58700 samples, 3.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpv579qd8y.wav' (14861 samples, 0.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmplw__e82j.wav' (141921 samples, 8.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpu1q4mhty.wav' (34551 samples, 2.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpotzj5hys.wav' (140806 samples, 8.8 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpr7zr93bz.wav' (28236 samples, 1.8 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpjr11d51f.wav' (37895 samples, 2.4 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpoed9c40n.wav' (52384 samples, 3.3 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpo9se06c1.wav' (20062 samples, 1.3 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpsoibbvba.wav' (29722 samples, 1.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpxod2bdo1.wav' (32322 samples, 2.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp3km0g0oo.wav' (147493 samples, 9.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpxphpga8b.wav' (195791 samples, 12.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmplhyayv4d.wav' (150465 samples, 9.4 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+whisper server listening at http://127.0.0.1:8081
+
+Received request: tmpys_h7nhe.wav
+Successfully loaded tmpys_h7nhe.wav
+Running whisper.cpp inference on tmpys_h7nhe.wav
+Received request: tmpnj5ltveo.wav
+Successfully loaded tmpnj5ltveo.wav
+Running whisper.cpp inference on tmpnj5ltveo.wav
+Received request: tmpw4ce34qk.wav
+Successfully loaded tmpw4ce34qk.wav
+Running whisper.cpp inference on tmpw4ce34qk.wav
+Received request: tmpnregyb38.wav
+Successfully loaded tmpnregyb38.wav
+Running whisper.cpp inference on tmpnregyb38.wav
+Received request: tmpz9jn9kbn.wav
+Successfully loaded tmpz9jn9kbn.wav
+Running whisper.cpp inference on tmpz9jn9kbn.wav
+Received request: tmpfh1gsv1v.wav
+Successfully loaded tmpfh1gsv1v.wav
+Running whisper.cpp inference on tmpfh1gsv1v.wav
+Received request: tmpwlvrrc9s.wav
+Successfully loaded tmpwlvrrc9s.wav
+Running whisper.cpp inference on tmpwlvrrc9s.wav
+Received request: tmp3qnb8mnp.wav
+Successfully loaded tmp3qnb8mnp.wav
+Running whisper.cpp inference on tmp3qnb8mnp.wav
+Received request: tmpbu7lk6r5.wav
+Successfully loaded tmpbu7lk6r5.wav
+Running whisper.cpp inference on tmpbu7lk6r5.wav
+Received request: tmpmxofgas2.wav
+Successfully loaded tmpmxofgas2.wav
+Running whisper.cpp inference on tmpmxofgas2.wav
+Received request: tmpxyscdx59.wav
+Successfully loaded tmpxyscdx59.wav
+Running whisper.cpp inference on tmpxyscdx59.wav
+Received request: tmpwtgw6tn5.wav
+Successfully loaded tmpwtgw6tn5.wav
+Running whisper.cpp inference on tmpwtgw6tn5.wav
+Received request: tmp1_6rqqx7.wav
+Successfully loaded tmp1_6rqqx7.wav
+Running whisper.cpp inference on tmp1_6rqqx7.wav
+Received request: tmp7qqyhz0y.wav
+Successfully loaded tmp7qqyhz0y.wav
+Running whisper.cpp inference on tmp7qqyhz0y.wav
+Received request: tmpegcjeizj.wav
+Successfully loaded tmpegcjeizj.wav
+Running whisper.cpp inference on tmpegcjeizj.wav
+Received request: tmpsth50xu6.wav
+Successfully loaded tmpsth50xu6.wav
+Running whisper.cpp inference on tmpsth50xu6.wav
+Received request: tmp01vgvp3k.wav
+Successfully loaded tmp01vgvp3k.wav
+Running whisper.cpp inference on tmp01vgvp3k.wav
+Received request: tmplkaj7z0u.wav
+Successfully loaded tmplkaj7z0u.wav
+Running whisper.cpp inference on tmplkaj7z0u.wav
+Received request: tmp25shbpru.wav
+Successfully loaded tmp25shbpru.wav
+Running whisper.cpp inference on tmp25shbpru.wav
+Received request: tmp23hso4s3.wav
+Successfully loaded tmp23hso4s3.wav
+Running whisper.cpp inference on tmp23hso4s3.wav
+Received request: tmprawvchc6.wav
+Successfully loaded tmprawvchc6.wav
+Running whisper.cpp inference on tmprawvchc6.wav
+Received request: tmpv579qd8y.wav
+Successfully loaded tmpv579qd8y.wav
+Running whisper.cpp inference on tmpv579qd8y.wav
+Received request: tmplw__e82j.wav
+Successfully loaded tmplw__e82j.wav
+Running whisper.cpp inference on tmplw__e82j.wav
+Received request: tmpu1q4mhty.wav
+Successfully loaded tmpu1q4mhty.wav
+Running whisper.cpp inference on tmpu1q4mhty.wav
+Received request: tmpotzj5hys.wav
+Successfully loaded tmpotzj5hys.wav
+Running whisper.cpp inference on tmpotzj5hys.wav
+Received request: tmpr7zr93bz.wav
+Successfully loaded tmpr7zr93bz.wav
+Running whisper.cpp inference on tmpr7zr93bz.wav
+Received request: tmpjr11d51f.wav
+Successfully loaded tmpjr11d51f.wav
+Running whisper.cpp inference on tmpjr11d51f.wav
+Received request: tmpoed9c40n.wav
+Successfully loaded tmpoed9c40n.wav
+Running whisper.cpp inference on tmpoed9c40n.wav
+Received request: tmpo9se06c1.wav
+Successfully loaded tmpo9se06c1.wav
+Running whisper.cpp inference on tmpo9se06c1.wav
+Received request: tmpsoibbvba.wav
+Successfully loaded tmpsoibbvba.wav
+Running whisper.cpp inference on tmpsoibbvba.wav
+Received request: tmpxod2bdo1.wav
+Successfully loaded tmpxod2bdo1.wav
+Running whisper.cpp inference on tmpxod2bdo1.wav
+Received request: tmp3km0g0oo.wav
+Successfully loaded tmp3km0g0oo.wav
+Running whisper.cpp inference on tmp3km0g0oo.wav
+Received request: tmpxphpga8b.wav
+Successfully loaded tmpxphpga8b.wav
+Running whisper.cpp inference on tmpxphpga8b.wav
+Received request: tmplhyayv4d.wav
+Successfully loaded tmplhyayv4d.wav
+Running whisper.cpp inference on tmplhyayv4d.wa
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp7ygalrza.wav' (58329 samples, 3.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpk298_sha.wav' (47183 samples, 2.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpv4fqc_d_.wav' (73932 samples, 4.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmps6ee7frj.wav' (241116 samples, 15.1 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmphzee7xz0.wav' (66502 samples, 4.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp1ng2m1rf.wav' (74676 samples, 4.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpgu3x1wh1.wav' (32694 samples, 2.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp5eo81_35.wav' (39381 samples, 2.5 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp1upqf3de.wav' (27864 samples, 1.7 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpgd6kqp8v.wav' (38638 samples, 2.4 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp958tek6g.wav' (44211 samples, 2.8 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpyz_gi05e.wav' (33437 samples, 2.1 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmploc0xgam.wav' (19691 samples, 1.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp5lpe_wrw.wav' (31208 samples, 2.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp9fvhp9d7.wav' (47555 samples, 3.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpo9bfx3uv.wav' (19319 samples, 1.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmppyj5b_sp.wav' (111456 samples, 7.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp5_5mh8jn.wav' (28979 samples, 1.8 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpkm9jdbvn.wav' (243345 samples, 15.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmppw9hr96e.wav' (47555 samples, 3.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpjxsw4fk3.wav' (50527 samples, 3.2 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp43t_9l7e.wav' (47183 samples, 2.9 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp9xg457qd.wav' (240745 samples, 15.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpp863ao0o.wav' (31579 samples, 2.0 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmp1_rtsoqe.wav' (89908 samples, 5.6 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpp3321_ef.wav' (36038 samples, 2.3 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+system_info: n_threads = 4 / 8 | WHISPER : COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 500,610,700,750,800,860,890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+operator(): processing 'tmpria90k8y.wav' (148236 samples, 9.3 sec), 4 threads, 1 processors, lang = en, task = transcribe, timestamps = 1 ...
+
+
+whisper_print_timings:     load time =   718.57 ms
+whisper_print_timings:     fallbacks =   1 p /   0 h
+whisper_print_timings:      mel time =   659.01 ms
+whisper_print_timings:   sample time =   677.19 ms /     1 runs (   677.19 ms per run)
+whisper_print_timings:   encode time =  5913.44 ms /    61 runs (    96.94 ms per run)
+whisper_print_timings:   decode time =  6841.14 ms /   523 runs (    13.08 ms per run)
+whisper_print_timings:   batchd time =   188.19 ms /    26 runs (     7.24 ms per run)
+whisper_print_timings:   prompt time =     0.00 ms /     1 runs (     0.00 ms per run)
+whisper_print_timings:    total time = 343681.69 ms
+v
+Received request: tmp7ygalrza.wav
+Successfully loaded tmp7ygalrza.wav
+Running whisper.cpp inference on tmp7ygalrza.wav
+Received request: tmpk298_sha.wav
+Successfully loaded tmpk298_sha.wav
+Running whisper.cpp inference on tmpk298_sha.wav
+Received request: tmpv4fqc_d_.wav
+Successfully loaded tmpv4fqc_d_.wav
+Running whisper.cpp inference on tmpv4fqc_d_.wav
+Received request: tmps6ee7frj.wav
+Successfully loaded tmps6ee7frj.wav
+Running whisper.cpp inference on tmps6ee7frj.wav
+Received request: tmphzee7xz0.wav
+Successfully loaded tmphzee7xz0.wav
+Running whisper.cpp inference on tmphzee7xz0.wav
+Received request: tmp1ng2m1rf.wav
+Successfully loaded tmp1ng2m1rf.wav
+Running whisper.cpp inference on tmp1ng2m1rf.wav
+Received request: tmpgu3x1wh1.wav
+Successfully loaded tmpgu3x1wh1.wav
+Running whisper.cpp inference on tmpgu3x1wh1.wav
+Received request: tmp5eo81_35.wav
+Successfully loaded tmp5eo81_35.wav
+Running whisper.cpp inference on tmp5eo81_35.wav
+Received request: tmp1upqf3de.wav
+Successfully loaded tmp1upqf3de.wav
+Running whisper.cpp inference on tmp1upqf3de.wav
+Received request: tmpgd6kqp8v.wav
+Successfully loaded tmpgd6kqp8v.wav
+Running whisper.cpp inference on tmpgd6kqp8v.wav
+Received request: tmp958tek6g.wav
+Successfully loaded tmp958tek6g.wav
+Running whisper.cpp inference on tmp958tek6g.wav
+Received request: tmpyz_gi05e.wav
+Successfully loaded tmpyz_gi05e.wav
+Running whisper.cpp inference on tmpyz_gi05e.wav
+Received request: tmploc0xgam.wav
+Successfully loaded tmploc0xgam.wav
+Running whisper.cpp inference on tmploc0xgam.wav
+Received request: tmp5lpe_wrw.wav
+Successfully loaded tmp5lpe_wrw.wav
+Running whisper.cpp inference on tmp5lpe_wrw.wav
+Received request: tmp9fvhp9d7.wav
+Successfully loaded tmp9fvhp9d7.wav
+Running whisper.cpp inference on tmp9fvhp9d7.wav
+Received request: tmpo9bfx3uv.wav
+Successfully loaded tmpo9bfx3uv.wav
+Running whisper.cpp inference on tmpo9bfx3uv.wav
+Received request: tmppyj5b_sp.wav
+Successfully loaded tmppyj5b_sp.wav
+Running whisper.cpp inference on tmppyj5b_sp.wav
+Received request: tmp5_5mh8jn.wav
+Successfully loaded tmp5_5mh8jn.wav
+Running whisper.cpp inference on tmp5_5mh8jn.wav
+Received request: tmpkm9jdbvn.wav
+Successfully loaded tmpkm9jdbvn.wav
+Running whisper.cpp inference on tmpkm9jdbvn.wav
+Received request: tmppw9hr96e.wav
+Successfully loaded tmppw9hr96e.wav
+Running whisper.cpp inference on tmppw9hr96e.wav
+Received request: tmpjxsw4fk3.wav
+Successfully loaded tmpjxsw4fk3.wav
+Running whisper.cpp inference on tmpjxsw4fk3.wav
+Received request: tmp43t_9l7e.wav
+Successfully loaded tmp43t_9l7e.wav
+Running whisper.cpp inference on tmp43t_9l7e.wav
+Received request: tmp9xg457qd.wav
+Successfully loaded tmp9xg457qd.wav
+Running whisper.cpp inference on tmp9xg457qd.wav
+Received request: tmpp863ao0o.wav
+Successfully loaded tmpp863ao0o.wav
+Running whisper.cpp inference on tmpp863ao0o.wav
+Received request: tmp1_rtsoqe.wav
+Successfully loaded tmp1_rtsoqe.wav
+Running whisper.cpp inference on tmp1_rtsoqe.wav
+Received request: tmpp3321_ef.wav
+Successfully loaded tmpp3321_ef.wav
+Running whisper.cpp inference on tmpp3321_ef.wav
+Received request: tmpria90k8y.wav
+Successfully loaded tmpria90k8y.wav
+Running whisper.cpp inference on tmpria90k8y.wav
+
+Caught signal 2, shutting down gracefully...
